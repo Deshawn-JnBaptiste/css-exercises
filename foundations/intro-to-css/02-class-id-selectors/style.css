@@ -8,3 +8,13 @@
     color: #3c98ee;
     font-size: 36px;
 }
+
+.font-size-change{
+    font-size: 24px;
+}
+
+#second-id{
+    background-color: #15e29e;
+    font-size: 24px;
+    font-weight: bold;
+}
