@@ -1,1 +1,7 @@
 /* Add CSS Styling */
+div p{
+    background-color: lch(93.31% 89.38 99.01);
+    color: oklab(54.652% 0.19548 0.10918);
+    font-size: 20px;
+    text-align: center;
+}
