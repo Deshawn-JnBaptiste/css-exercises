@@ -1,1 +1,14 @@
 /* Add CSS Styling */
+.button-1{
+    background-color: hsl(0, 0%, 0%);
+    color: hwb(0 100% 0%);
+}
+
+.button-2{
+    background-color: lab(97.14% -21.56 94.48);
+}
+
+.both-buttons{
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
