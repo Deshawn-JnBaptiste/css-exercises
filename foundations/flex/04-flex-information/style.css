@@ -9,6 +9,7 @@ img {
 
 .plants{
   display: flex;
+  justify-content: center;
 }
 
 
