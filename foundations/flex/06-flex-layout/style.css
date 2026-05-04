@@ -24,8 +24,21 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
-
+a{
+  text-decoration: none;
+  color: #818e99;
+}
 .header{
   display: flex;
   justify-content: space-between;
+  margin: 0;
+  padding: 16px;
+}
+
+.left-links,.right-links{
+  display: flex;
+  gap: 18px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
