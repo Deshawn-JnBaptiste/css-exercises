@@ -31,7 +31,7 @@ a{
   text-decoration: none;
   color: #818e99;
 }
-.header{
+.header,.footer{
   display: flex;
   justify-content: space-between;
   padding: 16px;
