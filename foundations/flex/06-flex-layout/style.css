@@ -37,6 +37,9 @@ a{
   padding: 16px;
 }
 
+.footer{
+  background: #eee;
+}
 
 .content{
   display: flex;
@@ -47,7 +50,7 @@ a{
   gap: 16px;
 }
 
-.left-links,.right-links{
+ul{
   display: flex;
   gap: 18px;
   list-style-type: none;
