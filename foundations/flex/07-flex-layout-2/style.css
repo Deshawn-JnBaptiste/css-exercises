@@ -9,16 +9,17 @@ body {
 a{
   text-decoration: none;
   color: #ffffff;
+  font-size: 24px;
 }
 
 ul{
   list-style-type: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
   margin: 0;
   padding: 0;
-  gap: 10px;
+}
+
+li{
+  margin-bottom: 16px;
 }
 
 .header {
@@ -36,6 +37,7 @@ ul{
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  
 }
 
 .sidebar {
@@ -43,26 +45,27 @@ ul{
   background: royalblue;
   box-sizing: border-box;
   padding: 10px;
+  flex-shrink: 0;
 }
 
 .card{
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  padding: 16px;
+  font-weight: 400;
 }
 
 .cards{
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-around;
-  gap: 20px;
-  padding: 20px;
+  gap: 32px;
+  padding: 48px;
+  flex-wrap: wrap;
 }
 
 .content {
   display: flex;
   flex: 1;
-  
 }
